@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Juego de sonidos interactivo</title>
+  <title>Contenido interactivo H5P</title>
   <style>
     .iframe-container {
       position: relative;
       width: 100%;
-      padding-top: 56.25%; /* 16:9 — ajusta si tu contenido tiene otra proporción */
+      /* Si tu contenido tiene proporción 16:9, usa 56.25%. Si es otra, ajustar */
+      padding-top: 56.25%;
       overflow: hidden;
     }
     .iframe-container iframe {
@@ -22,16 +23,17 @@
   </style>
 </head>
 <body>
-  <h1>Juego de sonidos animales</h1>
+  <h1>Mi contenido H5P embebido</h1>
   <div class="iframe-container">
     <iframe
-      src="https://h5p.org/h5p/embed/27611"
+      src="https://nsac.h5p.com/content/1292710463313024088/embed"
+      aria-label="Prueba"
       allowfullscreen="allowfullscreen"
-      allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
-      title="Animal sound game">
+      allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"
+      title="Contenido interactivo">
     </iframe>
   </div>
-  <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+  <script src="https://nsac.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 </body>
 </html>
-
