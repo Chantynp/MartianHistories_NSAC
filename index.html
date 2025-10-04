@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi sitio con video interactivo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juego de sonidos interactivo</title>
   <style>
-    /* Aquí estilos para el iframe responsivo */
     .iframe-container {
       position: relative;
       width: 100%;
-      /* Asumiendo una relación 16:9, usar 56.25% de padding-top */
-      padding-top: 56.25%;
+      padding-top: 56.25%; /* 16:9 — ajusta si tu contenido tiene otra proporción */
       overflow: hidden;
     }
     .iframe-container iframe {
@@ -24,15 +22,16 @@
   </style>
 </head>
 <body>
-  <h1>Bienvenido a mi página</h1>
+  <h1>Juego de sonidos animales</h1>
   <div class="iframe-container">
-    <iframe 
-      src="https://h5p.org/h5p/embed/617" 
-      allowfullscreen="allowfullscreen" 
-      allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" 
-      title="Interactive Video">
+    <iframe
+      src="https://h5p.org/h5p/embed/27611"
+      allowfullscreen="allowfullscreen"
+      allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
+      title="Animal sound game">
     </iframe>
   </div>
   <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 </body>
 </html>
+
