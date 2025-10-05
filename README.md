@@ -51,4 +51,4 @@ We considered:
 ## COST
 This project has a lot of ways to managed the hosting of page, the desing of the video and the use of images. There are our estimations:
 - GitHub Pages (hosting) + H5P free 30 day trial (interactive video) + Free video editor + Free AI image generator = A temporal free interactive video.
-- Professional hosting + H5P license (69usd/month) + Free video editor + Digital Artist= A complete and professional solution for interactive video, being able to create a platform of Space and science teaching.
+- Professional hosting + H5P license (69usd/month) + Free video editor + Digital Artist = A complete and professional solution for interactive video, being able to create a platform of Space and science teaching.
